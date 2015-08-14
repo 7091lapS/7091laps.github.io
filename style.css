@@ -1,0 +1,115 @@
+li {
+	display: inline;
+	color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+	color: white;
+}
+header {
+	color: white;
+	padding: 30px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+body {
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+h1 {
+	font-size: 80px;
+	font-style: helvetica;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+div {
+	display: inline;
+	padding: 10px;
+}
+button {
+	text-align: center;
+	background-color: transparent;
+	color: white;
+	font-style: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	border: solid white;
+}
+i {	
+	display: inline;
+}
+p {
+text-align: left;
+background-color: #181818;
+width: 640px;
+margin: 0 auto;
+padding: 20px;
+color: #F0F0F0;
+}
+img {
+	float: left;
+	border-radius: 500px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 200px;
+}
+h3 {
+	display: none;
+}
+@media(max-width: 1000px) {
+	body {
+		background-color: black;
+		background-size: cover;
+		background-image: url("mobilebg.png");
+
+	}
+	ul {
+		display: none;
+	}
+
+	h1 {
+		font-size: 200px;
+	}
+	h2 {
+		margin: 200px;
+
+	}
+	button {
+		font-size: 50px;
+		border-width: 6px;
+	}
+	h3 {
+		display: initial;
+		margin: 0 auto;
+		font-size: 40px;
+	}
+	p {
+		width: auto;
+		font-size: 40px;
+		margin: 40px;
+	}
+	header {
+		font-size: 70px;
+	}
+	img {
+		width: 400px;
+		height: 400px;
+	}
+}
